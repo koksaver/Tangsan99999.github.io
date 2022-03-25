@@ -15,7 +15,7 @@
   "homeVodImg": "/@data-original",
   "homeVodImgR": "\\S+(http\\S+)",
   "homeVodMark": "//span[contains(@class,'pic-text')]/text()",
-  "cateUrl": "http://www.dadagui.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+  "cateUrl": "http://www.dadagui.com/vodshow/{cateId}-{area}-{by}-{lang}-{abc}----{catePg}---{year}.html",
   "cateVodNode": "//ul[contains(@class,'stui-vodlist')]/li/div/a",
   "cateVodName": "/@title",
   "cateVodId": "/@href",
@@ -63,7 +63,7 @@
   "filter": {
     "1": [
       {
-        "key": 0,
+        "key": "cateId",
         "name": "剧情",
         "value": [
           {
@@ -117,7 +117,7 @@
         ]
       },
       {
-        "key": 11,
+        "key": "year",
         "name": "年份",
         "value": [
           {
@@ -179,7 +179,7 @@
         ]
       },
       {
-        "key": 4,
+        "key": "lang",
         "name": "语言",
         "value": [
           {
@@ -225,7 +225,7 @@
         ]
       },
       {
-        "key": 5,
+        "key": "abc",
         "name": "字母",
         "value": [
           {
@@ -343,7 +343,7 @@
         ]
       },
       {
-        "key": 2,
+        "key": "by",
         "name": "排序",
         "value": [
           {
@@ -363,7 +363,7 @@
     ],
     "2": [
       {
-        "key": 0,
+        "key": "cateId",
         "name": "类型",
         "value": [
           {
@@ -405,7 +405,7 @@
         ]
       },
       {
-        "key": 1,
+        "key": "area",
         "name": "地区",
         "value": [
           {
@@ -455,7 +455,7 @@
         ]
       },
       {
-        "key": 11,
+        "key": "year",
         "name": "年份",
         "value": [
           {
@@ -541,7 +541,7 @@
         ]
       },
       {
-        "key": 4,
+        "key": "lang",
         "name": "语言",
         "value": [
           {
@@ -587,7 +587,7 @@
         ]
       },
       {
-        "key": 5,
+        "key": "abc",
         "name": "字母",
         "value": [
           {
@@ -705,7 +705,7 @@
         ]
       },
       {
-        "key": 2,
+        "key": "by",
         "name": "排序",
         "value": [
           {
@@ -725,7 +725,7 @@
     ],
     "4": [
       {
-        "key": 0,
+        "key": "cateId",
         "name": "分类",
         "value": [
           {
@@ -755,7 +755,7 @@
         ]
       },
       {
-        "key": 1,
+        "key": "area",
         "name": "地区",
         "value": [
           {
@@ -781,7 +781,7 @@
         ]
       },
       {
-        "key": 11,
+        "key": "year",
         "name": "年份",
         "value": [
           {
@@ -843,7 +843,7 @@
         ]
       },
       {
-        "key": 2,
+        "key": "by",
         "name": "排序",
         "value": [
           {
@@ -863,8 +863,8 @@
     ],
     "3": [
       {
-        "key": 0,
-        "name": "地区",
+        "key": "cateId",
+        "name": "类型",
         "value": [
           {
             "n": "全部",
@@ -889,7 +889,7 @@
         ]
       },
       {
-        "key": 11,
+        "key": "year",
         "name": "年份",
         "value": [
           {
@@ -975,8 +975,8 @@
         ]
       },
       {
-        "key": 1,
-        "name": "语言",
+        "key": "area",
+        "name": "地区",
         "value": [
           {
             "n": "全部",
@@ -1001,7 +1001,7 @@
         ]
       },
       {
-        "key": 2,
+        "key": "by",
         "name": "排序",
         "value": [
           {
